@@ -126,7 +126,7 @@ class TextEncodePage(tk.Frame):
             pady=5)
         tk.Label(analysis_win, text=f"PSNR (Gürültü Oranı): {psnr_val:.2f} dB", font=("Arial", 12), bg="#ffffff").pack(
             pady=5)
-        tk.Label(analysis_win, text=f"SSIM (Yapısal Benzerlik): {ssim_val:.4f}", font=("Arial", 12), bg="#ffffff").pack(
+        tk.Label(analysis_win, text=f"SSIM (Yapısal Benzerlik): {float(ssim_val):.10f}", font=("Arial", 12), bg="#ffffff").pack(
             pady=5)
 
         tk.Label(analysis_win, text="Görsel Analiz Araçları", font=("Arial", 14, "bold"), bg="#ffffff").pack(
@@ -293,7 +293,7 @@ class ImageEncodePage(tk.Frame):
             pady=5)
         tk.Label(analysis_win, text=f"PSNR (Gürültü Oranı): {psnr_val:.2f} dB", font=("Arial", 12), bg="#ffffff").pack(
             pady=5)
-        tk.Label(analysis_win, text=f"SSIM (Yapısal Benzerlik): {ssim_val:.4f}", font=("Arial", 12), bg="#ffffff").pack(
+        tk.Label(analysis_win, text=f"SSIM (Yapısal Benzerlik): {float(ssim_val):.10f}", font=("Arial", 12), bg="#ffffff").pack(
             pady=5)
 
         tk.Label(analysis_win, text="Görsel Analiz Araçları", font=("Arial", 14, "bold"), bg="#ffffff").pack(

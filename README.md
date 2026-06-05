@@ -1,6 +1,6 @@
 # 🔐 AES-256 + PVD Steganografi Aracı
 
-> **Kriptolojinin Temelleri** dersi kapsamında geliştirilmiş, AES-256 şifreleme ve PVD (Pixel Value Differencing) steganografi algoritmalarını birleştiren çift katmanlı veri gizleme uygulaması.
+**Kriptolojinin Temelleri** dersi kapsamında geliştirilmiş, AES-256 şifreleme ve PVD (Pixel Value Differencing) steganografi algoritmalarını birleştiren çift katmanlı veri gizleme uygulaması.
 
 **Geliştirenler:** Firdevs Tosun · Şerife Nazlı Ünay · Esma Nur Kökören 
 
